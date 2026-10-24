@@ -10,3 +10,8 @@ insert into user_account (email, display_name, role, created_at) values
 -- LAB 01: Wasze konta (zmieńcie na swoje dane, rola USER)
 -- insert into user_account (email, display_name, role, created_at) values
 --     ('imie.nazwisko@student.merito.pl', 'Imię', 'USER', current_timestamp);
+
+insert into user_account (email, display_name, role, created_at) values
+    ('anna.testowa@student.merito.pl',  'Anna',  'USER', current_timestamp),
+    ('piotr.testowy@student.merito.pl', 'Piotr', 'USER', current_timestamp),
+    ('ewa.testowa@student.merito.pl',   'Ewa',   'USER', current_timestamp);
